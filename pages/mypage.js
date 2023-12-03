@@ -6,16 +6,16 @@ import { Headline } from '@/components/headline'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home(){ 
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <Header />
       <Headline>
-        <code className="font-mono font-bold">pages/index.js</code>
+        <code className="font-mono font-bold">pages/mypage.js</code>
       </Headline>
-      <MainImg imgName="next" />
+      <MainImg imgName="cotech" />
 
       <Links />
     </main>
