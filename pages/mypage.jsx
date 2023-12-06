@@ -16,7 +16,6 @@ export default function Home(){
         <code className="font-mono font-bold">pages/mypage.js</code>
       </Headline>
       <MainImg imgName="cotech" />
-
       <Links />
     </main>
   )
