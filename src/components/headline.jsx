@@ -1,4 +1,4 @@
-import { Vercel } from '@/components/vercel'
+import { Vercel } from '@/src/components/vercel'
 
 export function Headline(props) {
   return (
