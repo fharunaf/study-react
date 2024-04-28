@@ -1,0 +1,27 @@
+.header {
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 30px;
+    transition: ease-in .1s; }
+    .header.fixed {
+      position: fixed;
+      top: 0;
+      z-index: 10; }
+    .header .headerCnt {
+      height: 90px;
+      display: flex;
+      align-items: center;
+      width: 100%; }
+      .header .headerCnt #logo {
+        margin: 0; }
+        .header .headerCnt #logo a img {
+          width: 155px;
+          height: auto; }
+    @media screen and (max-width: 767px) {
+      .header {
+        padding: 0 15px; }
+        .header .headerCnt {
+          height: 60px; }
+          .header .headerCnt #logo a img {
+            width: 125px; } }
