@@ -1,0 +1,21 @@
+.bnrLink_txtList {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px 40px; }
+.bnrLink_txtList .blankLink_txtimg {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 5px 20px;
+color: #333; }
+.bnrLink_txtList a {
+text-decoration: none; }
+@media print, screen and (max-width: 767px) {
+.bnrLink_txtList {
+display: grid; }
+.bnrLink_txtList .blankLink_txtimg {
+flex-direction: column; } }
+

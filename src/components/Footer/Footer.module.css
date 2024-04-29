@@ -1,0 +1,98 @@
+.footer {
+    width: 100%;
+    padding: 90px 0 0;
+    background: #333;
+}
+.copy {
+    color: #999;
+    margin: 0;
+}
+    .footer__inr {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; }
+      .footer__inr._1 {
+        gap: 30px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid .999;
+        margin-bottom: 60px; }
+      .footer__inr._2 {
+        gap: 45px 100px;
+        margin-bottom: 46px; }
+    .footer__inr_grid {
+      display: grid;
+      gap: 30px; }
+    .footer_bottom {
+      margin-top: 60px;
+      padding: 60px 0;
+      background-color: #fff; }
+    @media print, screen and (min-width: 768px) {
+      .footer {
+        padding: 60px 0 0; }
+        .footer .footer__inr {
+          justify-content: space-between; }
+          .footer .footer__inr._1 {
+            margin-bottom: 40px; }
+          .footer .footer__inr._2 {
+            margin-bottom: 65px; }
+        .footer .footer__inr_grid {
+          grid-template-columns: auto 1fr 50px;
+          grid-template-rows: auto;
+          align-items: center; }
+          .footer .footer__inr_grid .pagetop {
+            grid-column: 3;
+            grid-row: 1; }
+          .footer .footer__inr_grid .snsIcons {
+            grid-column: 2;
+            grid-row: 1;
+            justify-content: flex-start; }
+          .footer .footer__inr_grid .copy {
+            grid-column: 1;
+            grid-row: 1; }
+        .footer_bottom {
+          margin-top: 70px;
+          padding: 30px 0; } }
+    @media print, screen and (max-width: 767px) {
+      .footer .copy {
+        text-align: center; } }
+  
+  /* ---------------------------------------------------------------- */
+  /* ページトップ*/
+  /* ---------------------------------------------------------------- */
+  .pagetopArea .roundArrow_btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto; }
+    .pagetopArea .roundArrow_btn::before, .pagetopArea .roundArrow_btn::after {
+      content: '';
+      position: absolute; }
+    .pagetopArea .roundArrow_btn::before {
+      top: 0;
+      width: 50px;
+      height: 50px;
+      border: 2px solid #707070;
+      border-radius: 40px; }
+    .pagetopArea .roundArrow_btn:after {
+      width: 15px;
+      height: 15px;
+      border-top: solid 4px #fff;
+      border-right: solid 4px #fff;
+      right: 18px;
+      top: 20px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+
+      .blankLink_imgList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px 30px; }
+        .blankLink_imgList .blankLink_img {
+        border-radius: 8px;
+        overflow: hidden; }
+        @media print, screen and (min-width: 768px) {
+        .blankLink_imgList .blankLink_img a:hover {
+        opacity: .8; } }

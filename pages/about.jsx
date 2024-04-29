@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google'
-import { Links } from '@/src/components/Links'
+import { Links } from '@/src/components/Links/Snslinks'
 import { MainImg } from '@/src/components/Main'
 import { Headline } from '@/src/components/Headline'
 import { Header } from '@/src/components/Header'
